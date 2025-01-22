@@ -1,6 +1,5 @@
 ﻿using System;
 
-public class BetManager
-{
-	public BetManager() {}
+public class BetManager {
+	public BetManager() { }
 }

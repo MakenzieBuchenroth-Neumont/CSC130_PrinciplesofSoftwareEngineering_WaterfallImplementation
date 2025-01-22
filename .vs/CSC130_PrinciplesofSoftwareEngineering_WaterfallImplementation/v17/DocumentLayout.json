@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Neumont\\Year_3\\Quarter_2\\CSC130_Principles of Software Engineering\\CSC130_PrinciplesofSoftwareEngineering_WaterfallImplementation\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Neumont\\Year_3\\Quarter_2\\CSC130_Principles of Software Engineering\\CSC130_PrinciplesofSoftwareEngineering_WaterfallImplementation\\Blackjack\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Blackjack\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Neumont\\Year_3\\Quarter_2\\CSC130_Principles of Software Engineering\\CSC130_PrinciplesofSoftwareEngineering_WaterfallImplementation\\Blackjack\\CardManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Blackjack\\CardManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Neumont\\Year_3\\Quarter_2\\CSC130_Principles of Software Engineering\\CSC130_PrinciplesofSoftwareEngineering_WaterfallImplementation\\Blackjack\\BetManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Blackjack\\BetManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Neumont\\Year_3\\Quarter_2\\CSC130_Principles of Software Engineering\\CSC130_PrinciplesofSoftwareEngineering_WaterfallImplementation\\Blackjack\\ArtManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Blackjack\\ArtManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Neumont\\Year_3\\Quarter_2\\CSC130_Principles of Software Engineering\\CSC130_PrinciplesofSoftwareEngineering_WaterfallImplementation\\Blackjack\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Blackjack\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Neumont\\Year_3\\Quarter_2\\CSC130_Principles of Software Engineering\\CSC130_PrinciplesofSoftwareEngineering_WaterfallImplementation\\Blackjack\\Blackjack.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Blackjack\\Blackjack.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,28 +58,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Neumont\\Year_3\\Quarter_2\\CSC130_Principles of Software Engineering\\CSC130_PrinciplesofSoftwareEngineering_WaterfallImplementation\\Blackjack\\Program.cs",
               "RelativeDocumentMoniker": "Blackjack\\Program.cs",
               "ToolTip": "C:\\Neumont\\Year_3\\Quarter_2\\CSC130_Principles of Software Engineering\\CSC130_PrinciplesofSoftwareEngineering_WaterfallImplementation\\Blackjack\\Program.cs",
               "RelativeToolTip": "Blackjack\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T16:27:15.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ArtManager.cs",
               "DocumentMoniker": "C:\\Neumont\\Year_3\\Quarter_2\\CSC130_Principles of Software Engineering\\CSC130_PrinciplesofSoftwareEngineering_WaterfallImplementation\\Blackjack\\ArtManager.cs",
               "RelativeDocumentMoniker": "Blackjack\\ArtManager.cs",
               "ToolTip": "C:\\Neumont\\Year_3\\Quarter_2\\CSC130_Principles of Software Engineering\\CSC130_PrinciplesofSoftwareEngineering_WaterfallImplementation\\Blackjack\\ArtManager.cs",
               "RelativeToolTip": "Blackjack\\ArtManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOQBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T16:30:27.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Blackjack.csproj",
+              "DocumentMoniker": "C:\\Neumont\\Year_3\\Quarter_2\\CSC130_Principles of Software Engineering\\CSC130_PrinciplesofSoftwareEngineering_WaterfallImplementation\\Blackjack\\Blackjack.csproj",
+              "RelativeDocumentMoniker": "Blackjack\\Blackjack.csproj",
+              "ToolTip": "C:\\Neumont\\Year_3\\Quarter_2\\CSC130_Principles of Software Engineering\\CSC130_PrinciplesofSoftwareEngineering_WaterfallImplementation\\Blackjack\\Blackjack.csproj",
+              "RelativeToolTip": "Blackjack\\Blackjack.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-22T16:09:07.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CardManager.cs",
+              "DocumentMoniker": "C:\\Neumont\\Year_3\\Quarter_2\\CSC130_Principles of Software Engineering\\CSC130_PrinciplesofSoftwareEngineering_WaterfallImplementation\\Blackjack\\CardManager.cs",
+              "RelativeDocumentMoniker": "Blackjack\\CardManager.cs",
+              "ToolTip": "C:\\Neumont\\Year_3\\Quarter_2\\CSC130_Principles of Software Engineering\\CSC130_PrinciplesofSoftwareEngineering_WaterfallImplementation\\Blackjack\\CardManager.cs",
+              "RelativeToolTip": "Blackjack\\CardManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T16:09:22.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BetManager.cs",
+              "DocumentMoniker": "C:\\Neumont\\Year_3\\Quarter_2\\CSC130_Principles of Software Engineering\\CSC130_PrinciplesofSoftwareEngineering_WaterfallImplementation\\Blackjack\\BetManager.cs",
+              "RelativeDocumentMoniker": "Blackjack\\BetManager.cs",
+              "ToolTip": "C:\\Neumont\\Year_3\\Quarter_2\\CSC130_Principles of Software Engineering\\CSC130_PrinciplesofSoftwareEngineering_WaterfallImplementation\\Blackjack\\BetManager.cs",
+              "RelativeToolTip": "Blackjack\\BetManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T16:09:27.402Z",
               "EditorCaption": ""
             }
           ]
