@@ -13,8 +13,7 @@ public class ArtManager {
 				|  |  |
 				|____Ɐ|");
     }
-    public static void TwoOfSpades()
-    {
+    public static void TwoOfSpades() {
         Console.WriteLine(@"
 					 _____
 					|2 .  |
