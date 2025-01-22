@@ -33,7 +33,7 @@ public class BetManager
 
 
 	/// <summary>
-	/// Call when the round finishes, properly sets player's chips based on if the player won or not.
+	/// Call when the round finishes, sets player's chips based on if the player won or not.
 	/// 
 	///  RETURNS: Player's original bet.
 	/// </summary>
