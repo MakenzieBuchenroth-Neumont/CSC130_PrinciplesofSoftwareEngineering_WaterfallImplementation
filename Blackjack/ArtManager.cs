@@ -1,12 +1,10 @@
 ﻿using System;
 
 public class ArtManager {
-
 	public ArtManager() {}
 
     #region Spades
-    public static void AceOfSpades()
-    {
+    public static void AceOfSpades() {
         Console.WriteLine(@"
 				 _____
 				|A .  |
