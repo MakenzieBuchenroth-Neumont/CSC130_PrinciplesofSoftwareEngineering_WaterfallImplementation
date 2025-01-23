@@ -1,12 +1,14 @@
 ﻿using System;
 
 public class UIManager {
-	public UIManager() { }
-
     public CardManager card = new CardManager();
     ArtManager art = new ArtManager();
 
-    // card.aceOfspades.art = art.AceOfSpades();
+	public UIManager() 
+    {
+        card.aceOfSpades.art = art.AceOfSpades();
+    }
+
     // card.twoOfSpades.art = art.TwoOfSpades();
     // card.threeOfSpades.art = art.ThreeOfSpades();
     // card.fourOfSpades.art = art.FourOfSpades();
