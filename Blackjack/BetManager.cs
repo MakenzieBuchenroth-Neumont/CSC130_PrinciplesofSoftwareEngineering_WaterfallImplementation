@@ -2,9 +2,9 @@
 
 public class BetManager
 {
-	public int playerChipCount = 1000;
+	public int playerChipCount { get; private set; }
 
-	public int currentBet;
+	public int currentBet { get; private set; }
 
 	public BetManager() {}
 
