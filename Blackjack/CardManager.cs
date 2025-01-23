@@ -8,7 +8,8 @@ public class Card
 
 	public Card(int value, string name) { this.value = value; this.name = name; }
 
-    public void art() { }
+    public delegate void Func();
+    public Func art;
 }
 
 public class CardManager

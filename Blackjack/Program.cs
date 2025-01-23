@@ -4,7 +4,6 @@
 			Console.WriteLine("Hello, World!");
 
 			Console.WriteLine("\nTesting card: Two of Spades");
-			ArtManager.TwoOfSpades();
 		}
 	}
 }
