@@ -2,7 +2,7 @@
 
 public class UIManager {
 	public UIManager() {
-		CardManger card = new CardManger();
+		CardManager card = new CardManager();
 		ArtManager art = new ArtManager();
 
 		// card.aceOfspades.art = art.AceOfSpades();
