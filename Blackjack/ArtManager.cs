@@ -4,7 +4,7 @@ public class ArtManager {
 	public ArtManager() {}
 
     #region Spades
-    public static void AceOfSpades() {
+    public void AceOfSpades() {
         Console.WriteLine(@"
 				 _____
 				|A .  |
@@ -13,7 +13,7 @@ public class ArtManager {
 				|  |  |
 				|____Ɐ|");
     }
-    public static void TwoOfSpades() {
+    public void TwoOfSpades() {
         Console.WriteLine(@"
 					 _____
 					|2 .  |
@@ -22,7 +22,8 @@ public class ArtManager {
 					|  |  |
 					|____ᘔ|");
     }
-    public static void ThreeOfSpades() {
+    public void ThreeOfSpades()
+    {
         Console.WriteLine(@"
 					 _____
 					|3 .  |
@@ -31,7 +32,8 @@ public class ArtManager {
 					|  |  |
 					|____Ɛ|");
     }
-    public static void FourOfSpades() {
+    public void FourOfSpades()
+    {
         Console.WriteLine(@"
 					 _____
 					|4 .  |
@@ -40,7 +42,8 @@ public class ArtManager {
 					|  |  |
 					|____߈|");
     }
-    public static void FiveOfSpades() {
+    public void FiveOfSpades()
+    {
         Console.WriteLine(@"
 					 _____
 					|5 .  |
@@ -49,7 +52,8 @@ public class ArtManager {
 					|  |  |
 					|____5|");
     }
-    public static void SixOfSpades() {
+    public void SixOfSpades()
+    {
         Console.WriteLine(@"
 					 _____
 					|6 .  |
@@ -58,7 +62,8 @@ public class ArtManager {
 					|  |  |
 					|____9|");
     }
-    public static void SevenOfSpades() {
+    public void SevenOfSpades()
+    {
         Console.WriteLine(@"
 					 _____
 					|7 .  |
@@ -67,7 +72,8 @@ public class ArtManager {
 					|  |  |
 					|____L|");
     }
-    public static void EightOfSpades() {
+    public void EightOfSpades()
+    {
         Console.WriteLine(@"
 				 _____
 				|8 .  |
@@ -76,7 +82,8 @@ public class ArtManager {
 				|  |  |
 				|____8|");
     }
-    public static void NineOfSpades() {
+    public void NineOfSpades()
+    {
         Console.WriteLine(@"
 				 _____
 				|9 .  |
@@ -85,7 +92,8 @@ public class ArtManager {
 				|  |  |
 				|____6|");
     }
-    public static void TenOfSpades() {
+    public void TenOfSpades()
+    {
         Console.WriteLine(@"
 				 _____
 				|10 . |
@@ -94,7 +102,8 @@ public class ArtManager {
 				|  |  |
 				|___0⇂|");
     }
-    public static void JackOfSpades() {
+    public void JackOfSpades()
+    {
         Console.WriteLine(@"
 				 _____
 				|J .  |
@@ -103,7 +112,8 @@ public class ArtManager {
 				|  |  |
 				|____ᒋ|");
     }
-    public static void QueenOfSpades() {
+    public void QueenOfSpades()
+    {
         Console.WriteLine(@"
 				 _____
 				|Q .  |
@@ -112,7 +122,8 @@ public class ArtManager {
 				|  |  |
 				|____ტ|");
     }
-    public static void KingOfSpades() {
+    public void KingOfSpades()
+    {
         Console.WriteLine(@"
 				 _____
 				|K .  |
@@ -123,7 +134,8 @@ public class ArtManager {
     }
     #endregion
     #region Diamonds
-    public static void AceOfDiamonds() {
+    public void AceOfDiamonds()
+    {
         Console.WriteLine(@"
 			  _____
 			 |A ^  | 
@@ -132,7 +144,8 @@ public class ArtManager {
 			 |  .  |
 			 |____Ɐ|");
     }
-    public static void TwoOfDiamonds() {
+    public void TwoOfDiamonds()
+    {
         Console.WriteLine(@"
 			  _____
 			 |2 ^  | 
@@ -141,7 +154,8 @@ public class ArtManager {
 			 |  .  |
 			 |____ᘔ|");
     }
-    public static void ThreeOfDiamonds() {
+    public void ThreeOfDiamonds()
+    {
         Console.WriteLine(@"
 			  _____
 			 |3 ^  | 
@@ -150,7 +164,8 @@ public class ArtManager {
 			 |  .  |
 			 |____Ɛ|");
     }
-    public static void FourOfDiamonds() {
+    public void FourOfDiamonds()
+    {
         Console.WriteLine(@"
 			  _____
 			 |4 ^  | 
@@ -159,7 +174,8 @@ public class ArtManager {
 			 |  .  |
 			 |____߈|");
     }
-    public static void FiveOfDiamonds() {
+    public void FiveOfDiamonds()
+    {
         Console.WriteLine(@"
 			  _____
 			 |5 ^  | 
@@ -168,7 +184,8 @@ public class ArtManager {
 			 |  .  |
 			 |____5|");
     }
-    public static void SixOfDiamonds() {
+    public void SixOfDiamonds()
+    {
         Console.WriteLine(@"
 			  _____
 			 |6 ^  | 
@@ -177,7 +194,8 @@ public class ArtManager {
 			 |  .  |
 			 |____9|");
     }
-    public static void SevenOfDiamonds() {
+    public void SevenOfDiamonds()
+    {
         Console.WriteLine(@"
 			  _____
 			 |7 ^  | 
@@ -186,7 +204,8 @@ public class ArtManager {
 			 |  .  |
 			 |___ㄥ|");
     }
-    public static void EightOfDiamonds() {
+    public void EightOfDiamonds()
+    {
         Console.WriteLine(@"
 			  _____
 			 |8 ^  | 
@@ -195,7 +214,8 @@ public class ArtManager {
 			 |  .  |
 			 |____8|");
     }
-    public static void NineOfDiamonds() {
+    public void NineOfDiamonds()
+    {
         Console.WriteLine(@"
 			  _____
 			 |9 ^  | 
@@ -204,7 +224,8 @@ public class ArtManager {
 			 |  .  |
 			 |____6|");
     }
-    public static void TenOfDiamonds() {
+    public void TenOfDiamonds()
+    {
         Console.WriteLine(@"
 			  _____
 			 |10 ^ | 
@@ -213,7 +234,8 @@ public class ArtManager {
 			 |  .  |
 			 |___0⇂|");
     }
-    public static void JackOfDiamonds() {
+    public void JackOfDiamonds()
+    {
         Console.WriteLine(@"
 			  _____
 			 |J ^  | 
@@ -222,7 +244,8 @@ public class ArtManager {
 			 |  .  |
 			 |____ᒋ|");
     }
-    public static void QueenOfDiamonds() {
+    public void QueenOfDiamonds()
+    {
         Console.WriteLine(@"
 			  _____
 			 |Q ^  | 
@@ -231,7 +254,8 @@ public class ArtManager {
 			 |  .  |
 			 |____ტ|");
     }
-    public static void KingOfDiamonds() {
+    public void KingOfDiamonds()
+    {
         Console.WriteLine(@"
 			  _____
 			 |K ^  | 
@@ -242,7 +266,8 @@ public class ArtManager {
     }
     #endregion
     #region Clubs
-    public static void AceOfClubs() {
+    public void AceOfClubs()
+    {
         Console.WriteLine(@"
 		  _____
 		  |A _  | 
@@ -251,7 +276,8 @@ public class ArtManager {
 		  |  |  |
 		  |____V|");
     }
-    public static void TwoOfClubs() {
+    public void TwoOfClubs()
+    {
         Console.WriteLine(@"
 		  _____
 		 |2 _  | 
@@ -260,7 +286,8 @@ public class ArtManager {
 		 |  |  |
 		 |____ᘔ|");
     }
-    public static void ThreeOfClubs() {
+    public void ThreeOfClubs()
+    {
         Console.WriteLine(@"
 		  _____
 		 |3 _  | 
@@ -269,7 +296,8 @@ public class ArtManager {
 		 |  |  |
 		 |____Ɛ|");
     }
-    public static void FourOfClubs() {
+    public void FourOfClubs()
+    {
         Console.WriteLine(@"
 		  _____
 		 |4 _  | 
@@ -278,7 +306,8 @@ public class ArtManager {
 		 |  |  |
 		 |____߈|");
     }
-    public static void FiveOfClubs() {
+    public void FiveOfClubs()
+    {
         Console.WriteLine(@"
 		  _____
 		 |5 _  | 
@@ -287,7 +316,8 @@ public class ArtManager {
 		 |  |  |
 		 |____5|");
     }
-    public static void SixOfClubs() {
+    public void SixOfClubs()
+    {
         Console.WriteLine(@"
 		  _____
 		 |6 _  | 
@@ -296,7 +326,8 @@ public class ArtManager {
 		 |  |  |
 		 |____9|");
     }
-    public static void SevenOfClubs() {
+    public void SevenOfClubs()
+    {
         Console.WriteLine(@"
 		  _____
 		 |7 _  | 
@@ -305,7 +336,8 @@ public class ArtManager {
 		 |  |  |
 		 |___ㄥ|");
     }
-    public static void EightOfClubs() {
+    public void EightOfClubs()
+    {
         Console.WriteLine(@"
 		  _____
 		 |8 _  | 
@@ -314,7 +346,8 @@ public class ArtManager {
 		 |  |  |
 		 |____8|");
     }
-    public static void NineOfClubs() {
+    public void NineOfClubs()
+    {
         Console.WriteLine(@"
 		  _____
 		 |9 _  | 
@@ -323,7 +356,8 @@ public class ArtManager {
 		 |  |  |
 		 |____6|");
     }
-    public static void TenOfClubs() {
+    public void TenOfClubs()
+    {
         Console.WriteLine(@"
 		  _____
 		 |10_  | 
@@ -332,7 +366,8 @@ public class ArtManager {
 		 |  |  |
 		 |___0⇂|");
     }
-    public static void JackOfClubs() {
+    public void JackOfClubs()
+    {
         Console.WriteLine(@"
 		  _____
 		 |J _  | 
@@ -341,7 +376,8 @@ public class ArtManager {
 		 |  |  |
 		 |____ᒋ|");
     }
-    public static void QueenOfClubs() {
+    public void QueenOfClubs()
+    {
         Console.WriteLine(@"
 		  _____
 		 |Q _  | 
@@ -350,7 +386,8 @@ public class ArtManager {
 		 |  |  |
 		 |____ტ|");
     }
-    public static void KingOfClubs() {
+    public void KingOfClubs()
+    {
         Console.WriteLine(@"
 		  _____
 		 |K _  | 
@@ -361,7 +398,8 @@ public class ArtManager {
     }
     #endregion
     #region Hearts
-    public static void AceOfHearts() {
+    public void AceOfHearts()
+    {
         Console.WriteLine(@"
 		   _____
 		  |A_ _ | 
@@ -370,7 +408,8 @@ public class ArtManager {
 		  |  .  |	
 		  |____V|");
     }
-    public static void TwoOfHearts() {
+    public void TwoOfHearts()
+    {
         Console.WriteLine(@"
 		  _____
 		 |2_ _ | 
@@ -379,7 +418,8 @@ public class ArtManager {
 		 |  .  |
 		 |____ᘔ|");
     }
-    public static void ThreeOfHearts() {
+    public void ThreeOfHearts()
+    {
         Console.WriteLine(@"
 		  _____
 		 |3_ _ | 
@@ -388,7 +428,8 @@ public class ArtManager {
 		 |  .  |
 		 |____Ɛ|");
     }
-    public static void FourOfHearts() {
+    public void FourOfHearts()
+    {
         Console.WriteLine(@"
 		  _____
 		 |4_ _ | 
@@ -397,7 +438,8 @@ public class ArtManager {
 		 |  .  |
 		 |____߈|");
     }
-    public static void FiveOfHearts() {
+    public void FiveOfHearts()
+    {
         Console.WriteLine(@"
 		  _____
 		 |5_ _ | 
@@ -406,7 +448,8 @@ public class ArtManager {
 		 |  .  |
 		 |____5|");
     }
-    public static void SixOfHearts() {
+    public void SixOfHearts()
+    {
         Console.WriteLine(@"
 		  _____
 		 |6_ _ | 
@@ -415,7 +458,8 @@ public class ArtManager {
 		 |  .  |
 		 |____9|");
     }
-    public static void SevenOfHearts() {
+    public void SevenOfHearts()
+    {
         Console.WriteLine(@"
 		  _____
 		 |7_ _ | 
@@ -424,7 +468,8 @@ public class ArtManager {
 		 |  .  |
 		 |___ㄥ|");
     }
-    public static void EightOfHearts() {
+    public void EightOfHearts()
+    {
         Console.WriteLine(@"
 		  _____
 		 |8_ _ | 
@@ -433,7 +478,8 @@ public class ArtManager {
 		 |  .  |
 		 |____8|");
     }
-    public static void NineOfHearts() {
+    public void NineOfHearts()
+    {
         Console.WriteLine(@"
 		  _____
 		 |9_ _ | 
@@ -442,7 +488,8 @@ public class ArtManager {
 		 |  .  |
 		 |____6|");
     }
-    public static void TenOfHearts() {
+    public void TenOfHearts()
+    {
         Console.WriteLine(@"
 		  _____
 		 |10_ _| 
@@ -451,7 +498,8 @@ public class ArtManager {
 		 |  .  |
 		 |___0⇂|");
     }
-    public static void JackOfHearts() {
+    public void JackOfHearts()
+    {
         Console.WriteLine(@"
 		  _____
 		 |J_ _ | 
@@ -460,7 +508,8 @@ public class ArtManager {
 		 |  .  |
 		 |____ᒋ|");
     }
-    public static void QueenOfHearts() {
+    public void QueenOfHearts()
+    {
         Console.WriteLine(@"
 		  _____
 		 |Q_ _ | 
@@ -469,7 +518,8 @@ public class ArtManager {
 		 |  .  |
 		 |____ტ|");
     }
-    public static void KingOfHearts() {
+    public void KingOfHearts()
+    {
         Console.WriteLine(@"
 		  _____
 		 |K_ _ | 
