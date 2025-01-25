@@ -5,6 +5,8 @@
 
             GameManager game = new GameManager();
 			game.PlayGame();
-		}
+
+            Console.WriteLine("Exiting program...");
+        }
 	}
 }

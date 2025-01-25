@@ -6,7 +6,7 @@ public class BetManager
 
 	public int currentBet { get; private set; }
 
-	public BetManager() {}
+	public BetManager() { this.playerChipCount = 500; }
 
 
 

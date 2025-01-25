@@ -211,15 +211,16 @@ public class CardManager
         else playerStand = true;
     }
 
-    public void DealerTurn(bool hit)
+    public void DealerTurn()
     {
-        if (hit)
+        Thread.Sleep(3000); // Wait for 3 seconds
+
+        if (dealerScore < 17)
         {
             dealerDeck.Add(DealCard());
             dealerScore = CalculateScore(dealerDeck);
 
             if (dealerScore > 21) gameOver = true;
-            else if (dealerScore >= 17) dealerStand = true;
         }
         else dealerStand = true;
     }
