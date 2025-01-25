@@ -1,7 +1,7 @@
 ﻿using System;
 
 public class UIManager {
-	public UIManager(CardManager card, ArtManager art) 
+    public static void LinkArt(CardManager card, ArtManager art)
     {
         card.aceOfSpades.art = art.AceOfSpades;
         card.twoOfSpades.art = art.TwoOfSpades;

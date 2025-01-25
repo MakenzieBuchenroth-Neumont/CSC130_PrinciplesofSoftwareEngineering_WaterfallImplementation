@@ -3,8 +3,57 @@
 public class ArtManager {
 	public ArtManager() {}
 
+    public void DisplayMultipleCards(List<Card> cards) {
+        string line1 = "", line2 = "", line3 = "", line4 = "", line5 = "", line6 = "", art;
+        int line;
+
+        foreach (Card card in cards)
+        {
+            art = card.art();
+            line = 1;
+
+            foreach (char c in art)
+            {
+                if (c != '\n')
+                {
+                    switch (line)
+                    {
+                        case 1: line1 += c; break;
+                        case 2: line2 += c; break;
+                        case 3: line3 += c; break;
+                        case 4: line4 += c; break;
+                        case 5: line5 += c; break;
+                        case 6: line6 += c; break;
+                        default: line1 += c; break;
+                    }
+                }
+                else
+                {
+                    switch (line)
+                    {
+                        case 1: line1 += "   "; break;
+                        case 2: line2 += "   "; break;
+                        case 3: line3 += "   "; break;
+                        case 4: line4 += "   "; break;
+                        case 5: line5 += "   "; break;
+                        default: line1 += "   "; break;
+                    }
+
+                    line++;
+                }
+            }
+
+            line6 += "   ";
+        }
+
+        line1 += "\n"; line2 += "\n"; line3 += "\n"; line4 += "\n"; line5 += "\n"; line6 += "\n";
+
+        string display = line1 + line2 + line3 + line4 + line5 + line6;
+        Console.Write(display);
+    }
+
     #region Spades
-    public void AceOfSpades() {
+    public string AceOfSpades() {
 		string ascii =  " _____ " + "\n" +
 						"|A .  |" + "\n" +
 					   @"| /.\ |" + "\n" +
@@ -12,9 +61,9 @@ public class ArtManager {
 						"|  |  |" + "\n" +
 						"|____Ɐ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void TwoOfSpades() {
+    public string TwoOfSpades() {
         string ascii =  " _____ " + "\n" +
                         "|2 .  |" + "\n" +
                        @"| /.\ |" + "\n" +
@@ -22,9 +71,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____ᘔ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void ThreeOfSpades() {
+    public string ThreeOfSpades() {
         string ascii =  " _____ " + "\n" +
                         "|3 .  |" + "\n" +
                        @"| /.\ |" + "\n" +
@@ -32,9 +81,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____Ɛ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void FourOfSpades() {
+    public string FourOfSpades() {
         string ascii =  " _____ " + "\n" +
                         "|4 .  |" + "\n" +
                        @"| /.\ |" + "\n" +
@@ -42,9 +91,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____߈|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void FiveOfSpades() {
+    public string FiveOfSpades() {
         string ascii =  " _____ " + "\n" +
                         "|5 .  |" + "\n" +
                        @"| /.\ |" + "\n" +
@@ -52,9 +101,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____5|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void SixOfSpades() {
+    public string SixOfSpades() {
         string ascii =  " _____ " + "\n" +
                         "|6 .  |" + "\n" +
                        @"| /.\ |" + "\n" +
@@ -62,9 +111,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____9|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void SevenOfSpades() {
+    public string SevenOfSpades() {
         string ascii =  " _____ " + "\n" +
                         "|7 .  |" + "\n" +
                        @"| /.\ |" + "\n" +
@@ -72,9 +121,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____L|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void EightOfSpades() {
+    public string EightOfSpades() {
         string ascii =  " _____ " + "\n" +
                         "|8 .  |" + "\n" +
                        @"| /.\ |" + "\n" +
@@ -82,9 +131,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____8|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void NineOfSpades() {
+    public string NineOfSpades() {
         string ascii =  " _____ " + "\n" +
                         "|9 .  |" + "\n" +
                        @"| /.\ |" + "\n" +
@@ -92,9 +141,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____6|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void TenOfSpades() {
+    public string TenOfSpades() {
         string ascii =  " _____ " + "\n" +
                         "|10.  |" + "\n" +
                        @"| /.\ |" + "\n" +
@@ -102,9 +151,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|___0⇂|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void JackOfSpades() {
+    public string JackOfSpades() {
         string ascii =  " _____ " + "\n" +
                         "|J .  |" + "\n" +
                        @"| /.\ |" + "\n" +
@@ -112,9 +161,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____ᒋ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void QueenOfSpades() {
+    public string QueenOfSpades() {
         string ascii =  " _____ " + "\n" +
                         "|Q .  |" + "\n" +
                        @"| /.\ |" + "\n" +
@@ -122,9 +171,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____ტ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void KingOfSpades() {
+    public string KingOfSpades() {
         string ascii =  " _____ " + "\n" +
                         "|K .  |" + "\n" +
                        @"| /.\ |" + "\n" +
@@ -132,11 +181,11 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____ꓘ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
     #endregion
     #region Diamonds
-    public void AceOfDiamonds() {
+    public string AceOfDiamonds() {
         string ascii =  " _____ " + "\n" +
                         "|A ^  |" + "\n" +
                        @"| / \ |" + "\n" +
@@ -144,9 +193,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____Ɐ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void TwoOfDiamonds() {
+    public string TwoOfDiamonds() {
         string ascii =  " _____ " + "\n" +
                         "|2 ^  |" + "\n" +
                        @"| / \ |" + "\n" +
@@ -154,9 +203,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____ᘔ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void ThreeOfDiamonds() {
+    public string ThreeOfDiamonds() {
         string ascii =  " _____ " + "\n" +
                         "|3 ^  |" + "\n" +
                        @"| / \ |" + "\n" +
@@ -164,9 +213,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____Ɛ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void FourOfDiamonds() {
+    public string FourOfDiamonds() {
         string ascii =  " _____ " + "\n" +
                         "|4 ^  |" + "\n" +
                        @"| / \ |" + "\n" +
@@ -174,9 +223,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____߈|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void FiveOfDiamonds() {
+    public string FiveOfDiamonds() {
         string ascii =  " _____ " + "\n" +
                         "|5 ^  |" + "\n" +
                        @"| / \ |" + "\n" +
@@ -184,9 +233,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____5|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void SixOfDiamonds() {
+    public string SixOfDiamonds() {
         string ascii =  " _____ " + "\n" +
                         "|6 ^  |" + "\n" +
                        @"| / \ |" + "\n" +
@@ -194,9 +243,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____9|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void SevenOfDiamonds() {
+    public string SevenOfDiamonds() {
         string ascii =  " _____ " + "\n" +
                         "|7 ^  |" + "\n" +
                        @"| / \ |" + "\n" +
@@ -204,9 +253,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|___ㄥ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void EightOfDiamonds() {
+    public string EightOfDiamonds() {
         string ascii =  " _____ " + "\n" +
                         "|8 ^  |" + "\n" +
                        @"| / \ |" + "\n" +
@@ -214,9 +263,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____8|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void NineOfDiamonds() {
+    public string NineOfDiamonds() {
         string ascii =  " _____ " + "\n" +
                         "|9 ^  |" + "\n" +
                        @"| / \ |" + "\n" +
@@ -224,9 +273,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____6|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void TenOfDiamonds() {
+    public string TenOfDiamonds() {
         string ascii =  " _____ " + "\n" +
                         "|10^  |" + "\n" +
                        @"| / \ |" + "\n" +
@@ -234,9 +283,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|___0⇂|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void JackOfDiamonds() {
+    public string JackOfDiamonds() {
         string ascii =  " _____ " + "\n" +
                         "|J ^  |" + "\n" +
                        @"| / \ |" + "\n" +
@@ -244,9 +293,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____ᒋ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void QueenOfDiamonds() {
+    public string QueenOfDiamonds() {
         string ascii =  " _____ " + "\n" +
                         "|Q ^  |" + "\n" +
                        @"| / \ |" + "\n" +
@@ -254,9 +303,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____ტ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void KingOfDiamonds() {
+    public string KingOfDiamonds() {
         string ascii =  " _____ " + "\n" +
                         "|K ^  |" + "\n" +
                        @"| / \ |" + "\n" +
@@ -264,11 +313,11 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____ꓘ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
     #endregion
     #region Clubs
-    public void AceOfClubs() {
+    public string AceOfClubs() {
         string ascii =  " _____ " + "\n" +
                         "|A _  |" + "\n" +
                         "| ( ) |" + "\n" +
@@ -276,9 +325,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____Ɐ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void TwoOfClubs() {
+    public string TwoOfClubs() {
         string ascii =  " _____ " + "\n" +
                         "|2 _  |" + "\n" +
                         "| ( ) |" + "\n" +
@@ -286,9 +335,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____ᘔ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void ThreeOfClubs() {
+    public string ThreeOfClubs() {
         string ascii =  " _____ " + "\n" +
                         "|3 _  |" + "\n" +
                         "| ( ) |" + "\n" +
@@ -296,9 +345,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____Ɛ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void FourOfClubs() {
+    public string FourOfClubs() {
         string ascii =  " _____ " + "\n" +
                         "|4 _  |" + "\n" +
                         "| ( ) |" + "\n" +
@@ -306,9 +355,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____߈|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void FiveOfClubs() {
+    public string FiveOfClubs() {
         string ascii =  " _____ " + "\n" +
                         "|5 _  |" + "\n" +
                         "| ( ) |" + "\n" +
@@ -316,9 +365,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____5|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void SixOfClubs() {
+    public string SixOfClubs() {
         string ascii =  " _____ " + "\n" +
                         "|6 _  |" + "\n" +
                         "| ( ) |" + "\n" +
@@ -326,9 +375,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____9|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void SevenOfClubs() {
+    public string SevenOfClubs() {
         string ascii =  " _____ " + "\n" +
                         "|7 _  |" + "\n" +
                         "| ( ) |" + "\n" +
@@ -336,9 +385,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|___ㄥ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void EightOfClubs() {
+    public string EightOfClubs() {
         string ascii =  " _____ " + "\n" +
                         "|8 _  |" + "\n" +
                         "| ( ) |" + "\n" +
@@ -346,9 +395,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____8|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void NineOfClubs() {
+    public string NineOfClubs() {
         string ascii =  " _____ " + "\n" +
                         "|9 _  |" + "\n" +
                         "| ( ) |" + "\n" +
@@ -356,9 +405,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____6|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void TenOfClubs() {
+    public string TenOfClubs() {
         string ascii =  " _____ " + "\n" +
                         "|10_  |" + "\n" +
                         "| ( ) |" + "\n" +
@@ -366,9 +415,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|___0⇂|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void JackOfClubs() {
+    public string JackOfClubs() {
         string ascii =  " _____ " + "\n" +
                         "|J _  |" + "\n" +
                         "| ( ) |" + "\n" +
@@ -376,9 +425,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____ᒋ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void QueenOfClubs() {
+    public string QueenOfClubs() {
         string ascii =  " _____ " + "\n" +
                         "|Q _  |" + "\n" +
                         "| ( ) |" + "\n" +
@@ -386,9 +435,9 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____ტ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void KingOfClubs() {
+    public string KingOfClubs() {
         string ascii =  " _____ " + "\n" +
                         "|K _  |" + "\n" +
                         "| ( ) |" + "\n" +
@@ -396,11 +445,11 @@ public class ArtManager {
                         "|  |  |" + "\n" +
                         "|____ꓘ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
     #endregion
     #region Hearts
-    public void AceOfHearts() {
+    public string AceOfHearts() {
         string ascii =  " _____ " + "\n" +
                         "|A_ _ |" + "\n" +
                         "|( v )|" + "\n" +
@@ -408,9 +457,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____Ɐ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void TwoOfHearts() {
+    public string TwoOfHearts() {
         string ascii =  " _____ " + "\n" +
                         "|2_ _ |" + "\n" +
                         "|( v )|" + "\n" +
@@ -418,9 +467,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____ᘔ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void ThreeOfHearts() {
+    public string ThreeOfHearts() {
         string ascii =  " _____ " + "\n" +
                         "|3_ _ |" + "\n" +
                         "|( v )|" + "\n" +
@@ -428,9 +477,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____Ɛ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void FourOfHearts() {
+    public string FourOfHearts() {
         string ascii =  " _____ " + "\n" +
                         "|4_ _ |" + "\n" +
                         "|( v )|" + "\n" +
@@ -438,9 +487,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____߈|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void FiveOfHearts() {
+    public string FiveOfHearts() {
         string ascii =  " _____ " + "\n" +
                         "|5_ _ |" + "\n" +
                         "|( v )|" + "\n" +
@@ -448,9 +497,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____5|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void SixOfHearts() {
+    public string SixOfHearts() {
         string ascii =  " _____ " + "\n" +
                         "|6_ _ |" + "\n" +
                         "|( v )|" + "\n" +
@@ -458,9 +507,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____9|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void SevenOfHearts() {
+    public string SevenOfHearts() {
         string ascii =  " _____ " + "\n" +
                         "|7_ _ |" + "\n" +
                         "|( v )|" + "\n" +
@@ -468,9 +517,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|___ㄥ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void EightOfHearts() {
+    public string EightOfHearts() {
         string ascii =  " _____ " + "\n" +
                         "|8_ _ |" + "\n" +
                         "|( v )|" + "\n" +
@@ -478,9 +527,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____8|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void NineOfHearts() {
+    public string NineOfHearts() {
         string ascii =  " _____ " + "\n" +
                         "|9_ _ |" + "\n" +
                         "|( v )|" + "\n" +
@@ -488,9 +537,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____6|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void TenOfHearts() {
+    public string TenOfHearts() {
         string ascii =  " _____ " + "\n" +
                         "|10 _ |" + "\n" +
                         "|( v )|" + "\n" +
@@ -498,9 +547,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|___0⇂|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void JackOfHearts() {
+    public string JackOfHearts() {
         string ascii =  " _____ " + "\n" +
                         "|J_ _ |" + "\n" +
                         "|( v )|" + "\n" +
@@ -508,9 +557,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____ᒋ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void QueenOfHearts() {
+    public string QueenOfHearts() {
         string ascii =  " _____ " + "\n" +
                         "|Q_ _ |" + "\n" +
                         "|( v )|" + "\n" +
@@ -518,9 +567,9 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____ტ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
-    public void KingOfHearts() {
+    public string KingOfHearts() {
         string ascii =  " _____ " + "\n" +
                         "|K_ _ |" + "\n" +
                         "|( v )|" + "\n" +
@@ -528,7 +577,7 @@ public class ArtManager {
                         "|  .  |" + "\n" +
                         "|____ꓘ|";
 
-        Console.WriteLine(ascii);
+        return ascii;
     }
 	#endregion
 }

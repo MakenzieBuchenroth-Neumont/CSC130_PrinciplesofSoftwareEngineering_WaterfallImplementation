@@ -8,7 +8,7 @@ public class Card
 
 	public Card(int value, string name) { this.value = value; this.name = name; }
 
-    public delegate void Func();
+    public delegate string Func();
     public Func art;
 }
 
@@ -83,11 +83,11 @@ public class CardManager
     public Card kingOfHearts = new Card(10, "KingOfHearts");
     #endregion
 
+    public int playerScore = 0;
+    public int dealerScore = 0;
+
     private List<Card> drawnCards = new List<Card>();
     private Random rnd = new Random();
-
-    private int playerScore = 0;
-    private int dealerScore = 0;
 
     private bool isDealerOver17 = false;
 

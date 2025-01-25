@@ -1,9 +1,10 @@
 ﻿namespace Blackjack {
 	internal class Program {
 		static void Main(string[] args) {
-			Console.WriteLine("Hello, World!");
+			Console.WriteLine("Running program...\n");
 
-			Console.WriteLine("\nTesting card: Two of Spades");
+            GameManager game = new GameManager();
+			game.PlayGame();
 		}
 	}
 }

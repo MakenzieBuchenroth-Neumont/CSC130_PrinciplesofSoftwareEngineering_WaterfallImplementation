@@ -9,13 +9,17 @@ public class GameManager
     // Card Manager
     CardManager cardManager = new CardManager();
 
+    // Art Manager
+    ArtManager artManager = new ArtManager();
+
     public GameManager()
     {
+        // UI Manager? (Linking Art to Cards)
+        UIManager.LinkArt(cardManager, artManager);
     }
 
     public void PlayGame()
     {
-
         while (keepPlaying)
         {
             if (betManager.playerChipCount <= 0)
@@ -37,25 +41,22 @@ public class GameManager
                     break;
             }
         }
-
     }
 
     public void PlayRound()
     {
-        bool playerWon = false;
-        // bet manager
+        // Bet Manager
         Console.WriteLine("How much would you like to bet?");
         string betInput = Console.ReadLine();
         int parsedBet = int.Parse(betInput);
         parsedBet = betManager.PlaceBet(parsedBet);
 
-
-        // card manager
+        // Card Manager
         cardManager.StartGame();
-
-        // display
         DisplayHands();
-        while (cardManager.playerStand != true)
+
+        // Player's Turn
+        while (cardManager.playerStand == false)
         {
             HitOrStand();
             string input = Console.ReadLine();
@@ -71,35 +72,27 @@ public class GameManager
                     Console.WriteLine("Invalid input, try again");
                     break;
             }
-
         }
 
-        while (cardManager.dealerStand != true)
+        // Dealer's Turn
+        while (cardManager.gameOver == false && cardManager.dealerStand == false)
         {
             cardManager.DealerTurn(true);
         }
+
+        // Final Results
         cardManager.Results();
-
         betManager.RoundFinished(cardManager.playerWon);
-
     }
 
     public void DisplayHands()
     {
-        // ascii display
-        foreach (Card card in cardManager.dealerDeck)
-        {
-            card.art();
-        }
+        // Art Manager (Ascii Display)
+        Console.WriteLine("-- Dealer --");
+        artManager.DisplayMultipleCards(cardManager.dealerDeck);
 
-
-        foreach (Card card in cardManager.playerDeck)
-        {
-            card.art();
-        }
-
-
-
+        Console.WriteLine("\n-- You --");
+        artManager.DisplayMultipleCards(cardManager.playerDeck);
     }
 
     public void HitOrStand()
@@ -107,17 +100,12 @@ public class GameManager
         Console.WriteLine("Hit or Stand?");
         Console.WriteLine("1 - Hit");
         Console.WriteLine("2 - Stand");
-
     }
-
-
 
     public void DisplayGameMenu()
     {
-        Console.WriteLine("Welcome to Black Jack! Would you like to place a bet?");
+        Console.WriteLine("Welcome to Blackjack! Would you like to place a bet?");
         Console.WriteLine("1 - Yes, I'd like to place a bet");
         Console.WriteLine("2 - No thanks.");
-
     }
-
 }
