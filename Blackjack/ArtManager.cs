@@ -5,528 +5,530 @@ public class ArtManager {
 
     #region Spades
     public void AceOfSpades() {
-        Console.WriteLine(@"
-				 _____
-				|A .  |
-				| /.\ |
-				|(_._)|
-				|  |  |
-				|____Ɐ|");
+		string ascii =  " _____ " + "\n" +
+						"|A .  |" + "\n" +
+					   @"| /.\ |" + "\n" +
+						"|(_._)|" + "\n" +
+						"|  |  |" + "\n" +
+						"|____Ɐ|";
+
+        Console.WriteLine(ascii);
     }
     public void TwoOfSpades() {
-        Console.WriteLine(@"
-					 _____
-					|2 .  |
-					| /.\ |
-					|(_._)|
-					|  |  |
-					|____ᘔ|");
+        string ascii =  " _____ " + "\n" +
+                        "|2 .  |" + "\n" +
+                       @"| /.\ |" + "\n" +
+                        "|(_._)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____ᘔ|";
+
+        Console.WriteLine(ascii);
     }
-    public void ThreeOfSpades()
-    {
-        Console.WriteLine(@"
-					 _____
-					|3 .  |
-					| /.\ |
-					|(_._)|
-					|  |  |
-					|____Ɛ|");
+    public void ThreeOfSpades() {
+        string ascii =  " _____ " + "\n" +
+                        "|3 .  |" + "\n" +
+                       @"| /.\ |" + "\n" +
+                        "|(_._)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____Ɛ|";
+
+        Console.WriteLine(ascii);
     }
-    public void FourOfSpades()
-    {
-        Console.WriteLine(@"
-					 _____
-					|4 .  |
-					| /.\ |
-					|(_._)|
-					|  |  |
-					|____߈|");
+    public void FourOfSpades() {
+        string ascii =  " _____ " + "\n" +
+                        "|4 .  |" + "\n" +
+                       @"| /.\ |" + "\n" +
+                        "|(_._)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____߈|";
+
+        Console.WriteLine(ascii);
     }
-    public void FiveOfSpades()
-    {
-        Console.WriteLine(@"
-					 _____
-					|5 .  |
-					| /.\ |
-					|(_._)|
-					|  |  |
-					|____5|");
+    public void FiveOfSpades() {
+        string ascii =  " _____ " + "\n" +
+                        "|5 .  |" + "\n" +
+                       @"| /.\ |" + "\n" +
+                        "|(_._)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____5|";
+
+        Console.WriteLine(ascii);
     }
-    public void SixOfSpades()
-    {
-        Console.WriteLine(@"
-					 _____
-					|6 .  |
-					| /.\ |
-					|(_._)|
-					|  |  |
-					|____9|");
+    public void SixOfSpades() {
+        string ascii =  " _____ " + "\n" +
+                        "|6 .  |" + "\n" +
+                       @"| /.\ |" + "\n" +
+                        "|(_._)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____9|";
+
+        Console.WriteLine(ascii);
     }
-    public void SevenOfSpades()
-    {
-        Console.WriteLine(@"
-					 _____
-					|7 .  |
-					| /.\ |
-					|(_._)|
-					|  |  |
-					|____L|");
+    public void SevenOfSpades() {
+        string ascii =  " _____ " + "\n" +
+                        "|7 .  |" + "\n" +
+                       @"| /.\ |" + "\n" +
+                        "|(_._)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____L|";
+
+        Console.WriteLine(ascii);
     }
-    public void EightOfSpades()
-    {
-        Console.WriteLine(@"
-				 _____
-				|8 .  |
-				| /.\ |
-				|(_._)|
-				|  |  |
-				|____8|");
+    public void EightOfSpades() {
+        string ascii =  " _____ " + "\n" +
+                        "|8 .  |" + "\n" +
+                       @"| /.\ |" + "\n" +
+                        "|(_._)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____8|";
+
+        Console.WriteLine(ascii);
     }
-    public void NineOfSpades()
-    {
-        Console.WriteLine(@"
-				 _____
-				|9 .  |
-				| /.\ |
-				|(_._)|
-				|  |  |
-				|____6|");
+    public void NineOfSpades() {
+        string ascii =  " _____ " + "\n" +
+                        "|9 .  |" + "\n" +
+                       @"| /.\ |" + "\n" +
+                        "|(_._)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____6|";
+
+        Console.WriteLine(ascii);
     }
-    public void TenOfSpades()
-    {
-        Console.WriteLine(@"
-				 _____
-				|10 . |
-				| /.\ |
-				|(_._)|
-				|  |  |
-				|___0⇂|");
+    public void TenOfSpades() {
+        string ascii =  " _____ " + "\n" +
+                        "|10.  |" + "\n" +
+                       @"| /.\ |" + "\n" +
+                        "|(_._)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|___0⇂|";
+
+        Console.WriteLine(ascii);
     }
-    public void JackOfSpades()
-    {
-        Console.WriteLine(@"
-				 _____
-				|J .  |
-				| /.\ |
-				|(_._)|
-				|  |  |
-				|____ᒋ|");
+    public void JackOfSpades() {
+        string ascii =  " _____ " + "\n" +
+                        "|J .  |" + "\n" +
+                       @"| /.\ |" + "\n" +
+                        "|(_._)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____ᒋ|";
+
+        Console.WriteLine(ascii);
     }
-    public void QueenOfSpades()
-    {
-        Console.WriteLine(@"
-				 _____
-				|Q .  |
-				| /.\ |
-				|(_._)|
-				|  |  |
-				|____ტ|");
+    public void QueenOfSpades() {
+        string ascii =  " _____ " + "\n" +
+                        "|Q .  |" + "\n" +
+                       @"| /.\ |" + "\n" +
+                        "|(_._)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____ტ|";
+
+        Console.WriteLine(ascii);
     }
-    public void KingOfSpades()
-    {
-        Console.WriteLine(@"
-				 _____
-				|K .  |
-				| /.\ |
-				|(_._)|
-				|  |  |
-				|____ꓘ|");
+    public void KingOfSpades() {
+        string ascii =  " _____ " + "\n" +
+                        "|K .  |" + "\n" +
+                       @"| /.\ |" + "\n" +
+                        "|(_._)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____ꓘ|";
+
+        Console.WriteLine(ascii);
     }
     #endregion
     #region Diamonds
-    public void AceOfDiamonds()
-    {
-        Console.WriteLine(@"
-			  _____
-			 |A ^  | 
-			 | / \ |
-			 | \ / |
-			 |  .  |
-			 |____Ɐ|");
+    public void AceOfDiamonds() {
+        string ascii =  " _____ " + "\n" +
+                        "|A ^  |" + "\n" +
+                       @"| / \ |" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____Ɐ|";
+
+        Console.WriteLine(ascii);
     }
-    public void TwoOfDiamonds()
-    {
-        Console.WriteLine(@"
-			  _____
-			 |2 ^  | 
-			 | / \ |
-			 | \ / |
-			 |  .  |
-			 |____ᘔ|");
+    public void TwoOfDiamonds() {
+        string ascii =  " _____ " + "\n" +
+                        "|2 ^  |" + "\n" +
+                       @"| / \ |" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____ᘔ|";
+
+        Console.WriteLine(ascii);
     }
-    public void ThreeOfDiamonds()
-    {
-        Console.WriteLine(@"
-			  _____
-			 |3 ^  | 
-			 | / \ |
-			 | \ / |
-			 |  .  |
-			 |____Ɛ|");
+    public void ThreeOfDiamonds() {
+        string ascii =  " _____ " + "\n" +
+                        "|3 ^  |" + "\n" +
+                       @"| / \ |" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____Ɛ|";
+
+        Console.WriteLine(ascii);
     }
-    public void FourOfDiamonds()
-    {
-        Console.WriteLine(@"
-			  _____
-			 |4 ^  | 
-			 | / \ |
-			 | \ / |
-			 |  .  |
-			 |____߈|");
+    public void FourOfDiamonds() {
+        string ascii =  " _____ " + "\n" +
+                        "|4 ^  |" + "\n" +
+                       @"| / \ |" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____߈|";
+
+        Console.WriteLine(ascii);
     }
-    public void FiveOfDiamonds()
-    {
-        Console.WriteLine(@"
-			  _____
-			 |5 ^  | 
-			 | / \ |
-			 | \ / |
-			 |  .  |
-			 |____5|");
+    public void FiveOfDiamonds() {
+        string ascii =  " _____ " + "\n" +
+                        "|5 ^  |" + "\n" +
+                       @"| / \ |" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____5|";
+
+        Console.WriteLine(ascii);
     }
-    public void SixOfDiamonds()
-    {
-        Console.WriteLine(@"
-			  _____
-			 |6 ^  | 
-			 | / \ |
-			 | \ / |
-			 |  .  |
-			 |____9|");
+    public void SixOfDiamonds() {
+        string ascii =  " _____ " + "\n" +
+                        "|6 ^  |" + "\n" +
+                       @"| / \ |" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____9|";
+
+        Console.WriteLine(ascii);
     }
-    public void SevenOfDiamonds()
-    {
-        Console.WriteLine(@"
-			  _____
-			 |7 ^  | 
-			 | / \ |
-			 | \ / |
-			 |  .  |
-			 |___ㄥ|");
+    public void SevenOfDiamonds() {
+        string ascii =  " _____ " + "\n" +
+                        "|7 ^  |" + "\n" +
+                       @"| / \ |" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|___ㄥ|";
+
+        Console.WriteLine(ascii);
     }
-    public void EightOfDiamonds()
-    {
-        Console.WriteLine(@"
-			  _____
-			 |8 ^  | 
-			 | / \ |
-			 | \ / |
-			 |  .  |
-			 |____8|");
+    public void EightOfDiamonds() {
+        string ascii =  " _____ " + "\n" +
+                        "|8 ^  |" + "\n" +
+                       @"| / \ |" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____8|";
+
+        Console.WriteLine(ascii);
     }
-    public void NineOfDiamonds()
-    {
-        Console.WriteLine(@"
-			  _____
-			 |9 ^  | 
-			 | / \ |
-			 | \ / |
-			 |  .  |
-			 |____6|");
+    public void NineOfDiamonds() {
+        string ascii =  " _____ " + "\n" +
+                        "|9 ^  |" + "\n" +
+                       @"| / \ |" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____6|";
+
+        Console.WriteLine(ascii);
     }
-    public void TenOfDiamonds()
-    {
-        Console.WriteLine(@"
-			  _____
-			 |10 ^ | 
-			 | / \ |
-			 | \ / |
-			 |  .  |
-			 |___0⇂|");
+    public void TenOfDiamonds() {
+        string ascii =  " _____ " + "\n" +
+                        "|10^  |" + "\n" +
+                       @"| / \ |" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|___0⇂|";
+
+        Console.WriteLine(ascii);
     }
-    public void JackOfDiamonds()
-    {
-        Console.WriteLine(@"
-			  _____
-			 |J ^  | 
-			 | / \ |
-			 | \ / |
-			 |  .  |
-			 |____ᒋ|");
+    public void JackOfDiamonds() {
+        string ascii =  " _____ " + "\n" +
+                        "|J ^  |" + "\n" +
+                       @"| / \ |" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____ᒋ|";
+
+        Console.WriteLine(ascii);
     }
-    public void QueenOfDiamonds()
-    {
-        Console.WriteLine(@"
-			  _____
-			 |Q ^  | 
-			 | / \ |
-			 | \ / |
-			 |  .  |
-			 |____ტ|");
+    public void QueenOfDiamonds() {
+        string ascii =  " _____ " + "\n" +
+                        "|Q ^  |" + "\n" +
+                       @"| / \ |" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____ტ|";
+
+        Console.WriteLine(ascii);
     }
-    public void KingOfDiamonds()
-    {
-        Console.WriteLine(@"
-			  _____
-			 |K ^  | 
-			 | / \ |
-			 | \ / |
-			 |  .  |
-			 |____ꓘ|");
+    public void KingOfDiamonds() {
+        string ascii =  " _____ " + "\n" +
+                        "|K ^  |" + "\n" +
+                       @"| / \ |" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____ꓘ|";
+
+        Console.WriteLine(ascii);
     }
     #endregion
     #region Clubs
-    public void AceOfClubs()
-    {
-        Console.WriteLine(@"
-		  _____
-		  |A _  | 
-		  | ( ) |
-		  |(_'_)|
-		  |  |  |
-		  |____V|");
+    public void AceOfClubs() {
+        string ascii =  " _____ " + "\n" +
+                        "|A _  |" + "\n" +
+                        "| ( ) |" + "\n" +
+                        "|(_'_)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____Ɐ|";
+
+        Console.WriteLine(ascii);
     }
-    public void TwoOfClubs()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |2 _  | 
-		 | ( ) |
-		 |(_'_)|
-		 |  |  |
-		 |____ᘔ|");
+    public void TwoOfClubs() {
+        string ascii =  " _____ " + "\n" +
+                        "|2 _  |" + "\n" +
+                        "| ( ) |" + "\n" +
+                        "|(_'_)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____ᘔ|";
+
+        Console.WriteLine(ascii);
     }
-    public void ThreeOfClubs()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |3 _  | 
-		 | ( ) |
-		 |(_'_)|
-		 |  |  |
-		 |____Ɛ|");
+    public void ThreeOfClubs() {
+        string ascii =  " _____ " + "\n" +
+                        "|3 _  |" + "\n" +
+                        "| ( ) |" + "\n" +
+                        "|(_'_)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____Ɛ|";
+
+        Console.WriteLine(ascii);
     }
-    public void FourOfClubs()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |4 _  | 
-		 | ( ) |
-		 |(_'_)|
-		 |  |  |
-		 |____߈|");
+    public void FourOfClubs() {
+        string ascii =  " _____ " + "\n" +
+                        "|4 _  |" + "\n" +
+                        "| ( ) |" + "\n" +
+                        "|(_'_)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____߈|";
+
+        Console.WriteLine(ascii);
     }
-    public void FiveOfClubs()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |5 _  | 
-		 | ( ) |
-		 |(_'_)|
-		 |  |  |
-		 |____5|");
+    public void FiveOfClubs() {
+        string ascii =  " _____ " + "\n" +
+                        "|5 _  |" + "\n" +
+                        "| ( ) |" + "\n" +
+                        "|(_'_)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____5|";
+
+        Console.WriteLine(ascii);
     }
-    public void SixOfClubs()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |6 _  | 
-		 | ( ) |
-		 |(_'_)|
-		 |  |  |
-		 |____9|");
+    public void SixOfClubs() {
+        string ascii =  " _____ " + "\n" +
+                        "|6 _  |" + "\n" +
+                        "| ( ) |" + "\n" +
+                        "|(_'_)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____9|";
+
+        Console.WriteLine(ascii);
     }
-    public void SevenOfClubs()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |7 _  | 
-		 | ( ) |
-		 |(_'_)|
-		 |  |  |
-		 |___ㄥ|");
+    public void SevenOfClubs() {
+        string ascii =  " _____ " + "\n" +
+                        "|7 _  |" + "\n" +
+                        "| ( ) |" + "\n" +
+                        "|(_'_)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|___ㄥ|";
+
+        Console.WriteLine(ascii);
     }
-    public void EightOfClubs()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |8 _  | 
-		 | ( ) |
-		 |(_'_)|
-		 |  |  |
-		 |____8|");
+    public void EightOfClubs() {
+        string ascii =  " _____ " + "\n" +
+                        "|8 _  |" + "\n" +
+                        "| ( ) |" + "\n" +
+                        "|(_'_)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____8|";
+
+        Console.WriteLine(ascii);
     }
-    public void NineOfClubs()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |9 _  | 
-		 | ( ) |
-		 |(_'_)|
-		 |  |  |
-		 |____6|");
+    public void NineOfClubs() {
+        string ascii =  " _____ " + "\n" +
+                        "|9 _  |" + "\n" +
+                        "| ( ) |" + "\n" +
+                        "|(_'_)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____6|";
+
+        Console.WriteLine(ascii);
     }
-    public void TenOfClubs()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |10_  | 
-		 | ( ) |
-		 |(_'_)|
-		 |  |  |
-		 |___0⇂|");
+    public void TenOfClubs() {
+        string ascii =  " _____ " + "\n" +
+                        "|10_  |" + "\n" +
+                        "| ( ) |" + "\n" +
+                        "|(_'_)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|___0⇂|";
+
+        Console.WriteLine(ascii);
     }
-    public void JackOfClubs()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |J _  | 
-		 | ( ) |
-		 |(_'_)|
-		 |  |  |
-		 |____ᒋ|");
+    public void JackOfClubs() {
+        string ascii =  " _____ " + "\n" +
+                        "|J _  |" + "\n" +
+                        "| ( ) |" + "\n" +
+                        "|(_'_)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____ᒋ|";
+
+        Console.WriteLine(ascii);
     }
-    public void QueenOfClubs()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |Q _  | 
-		 | ( ) |
-		 |(_'_)|
-		 |  |  |
-		 |____ტ|");
+    public void QueenOfClubs() {
+        string ascii =  " _____ " + "\n" +
+                        "|Q _  |" + "\n" +
+                        "| ( ) |" + "\n" +
+                        "|(_'_)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____ტ|";
+
+        Console.WriteLine(ascii);
     }
-    public void KingOfClubs()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |K _  | 
-		 | ( ) |
-		 |(_'_)|
-		 |  |  |
-		 |____ꓘ|");
+    public void KingOfClubs() {
+        string ascii =  " _____ " + "\n" +
+                        "|K _  |" + "\n" +
+                        "| ( ) |" + "\n" +
+                        "|(_'_)|" + "\n" +
+                        "|  |  |" + "\n" +
+                        "|____ꓘ|";
+
+        Console.WriteLine(ascii);
     }
     #endregion
     #region Hearts
-    public void AceOfHearts()
-    {
-        Console.WriteLine(@"
-		   _____
-		  |A_ _ | 
-		  |( v )|
-		  | \ / |
-		  |  .  |	
-		  |____V|");
+    public void AceOfHearts() {
+        string ascii =  " _____ " + "\n" +
+                        "|A_ _ |" + "\n" +
+                        "|( v )|" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____Ɐ|";
+
+        Console.WriteLine(ascii);
     }
-    public void TwoOfHearts()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |2_ _ | 
-		 |( v )|
-		 | \ / |
-		 |  .  |
-		 |____ᘔ|");
+    public void TwoOfHearts() {
+        string ascii =  " _____ " + "\n" +
+                        "|2_ _ |" + "\n" +
+                        "|( v )|" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____ᘔ|";
+
+        Console.WriteLine(ascii);
     }
-    public void ThreeOfHearts()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |3_ _ | 
-		 |( v )|
-		 | \ / |
-		 |  .  |
-		 |____Ɛ|");
+    public void ThreeOfHearts() {
+        string ascii =  " _____ " + "\n" +
+                        "|3_ _ |" + "\n" +
+                        "|( v )|" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____Ɛ|";
+
+        Console.WriteLine(ascii);
     }
-    public void FourOfHearts()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |4_ _ | 
-		 |( v )|
-		 | \ / |
-		 |  .  |
-		 |____߈|");
+    public void FourOfHearts() {
+        string ascii =  " _____ " + "\n" +
+                        "|4_ _ |" + "\n" +
+                        "|( v )|" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____߈|";
+
+        Console.WriteLine(ascii);
     }
-    public void FiveOfHearts()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |5_ _ | 
-		 |( v )|
-		 | \ / |
-		 |  .  |
-		 |____5|");
+    public void FiveOfHearts() {
+        string ascii =  " _____ " + "\n" +
+                        "|5_ _ |" + "\n" +
+                        "|( v )|" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____5|";
+
+        Console.WriteLine(ascii);
     }
-    public void SixOfHearts()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |6_ _ | 
-		 |( v )|
-		 | \ / |
-		 |  .  |
-		 |____9|");
+    public void SixOfHearts() {
+        string ascii =  " _____ " + "\n" +
+                        "|6_ _ |" + "\n" +
+                        "|( v )|" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____9|";
+
+        Console.WriteLine(ascii);
     }
-    public void SevenOfHearts()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |7_ _ | 
-		 |( v )|
-		 | \ / |
-		 |  .  |
-		 |___ㄥ|");
+    public void SevenOfHearts() {
+        string ascii =  " _____ " + "\n" +
+                        "|7_ _ |" + "\n" +
+                        "|( v )|" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|___ㄥ|";
+
+        Console.WriteLine(ascii);
     }
-    public void EightOfHearts()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |8_ _ | 
-		 |( v )|
-		 | \ / |
-		 |  .  |
-		 |____8|");
+    public void EightOfHearts() {
+        string ascii =  " _____ " + "\n" +
+                        "|8_ _ |" + "\n" +
+                        "|( v )|" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____8|";
+
+        Console.WriteLine(ascii);
     }
-    public void NineOfHearts()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |9_ _ | 
-		 |( v )|
-		 | \ / |
-		 |  .  |
-		 |____6|");
+    public void NineOfHearts() {
+        string ascii =  " _____ " + "\n" +
+                        "|9_ _ |" + "\n" +
+                        "|( v )|" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____6|";
+
+        Console.WriteLine(ascii);
     }
-    public void TenOfHearts()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |10_ _| 
-		 |( v )|
-		 | \ / |
-		 |  .  |
-		 |___0⇂|");
+    public void TenOfHearts() {
+        string ascii =  " _____ " + "\n" +
+                        "|10 _ |" + "\n" +
+                        "|( v )|" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|___0⇂|";
+
+        Console.WriteLine(ascii);
     }
-    public void JackOfHearts()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |J_ _ | 
-		 |( v )|
-		 | \ / |
-		 |  .  |
-		 |____ᒋ|");
+    public void JackOfHearts() {
+        string ascii =  " _____ " + "\n" +
+                        "|J_ _ |" + "\n" +
+                        "|( v )|" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____ᒋ|";
+
+        Console.WriteLine(ascii);
     }
-    public void QueenOfHearts()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |Q_ _ | 
-		 |( v )|
-		 | \ / |
-		 |  .  |
-		 |____ტ|");
+    public void QueenOfHearts() {
+        string ascii =  " _____ " + "\n" +
+                        "|Q_ _ |" + "\n" +
+                        "|( v )|" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____ტ|";
+
+        Console.WriteLine(ascii);
     }
-    public void KingOfHearts()
-    {
-        Console.WriteLine(@"
-		  _____
-		 |K_ _ | 
-		 |( v )|
-		 | \ / |
-		 |  .  |
-		 |____ꓘ|");
+    public void KingOfHearts() {
+        string ascii =  " _____ " + "\n" +
+                        "|K_ _ |" + "\n" +
+                        "|( v )|" + "\n" +
+                       @"| \ / |" + "\n" +
+                        "|  .  |" + "\n" +
+                        "|____ꓘ|";
+
+        Console.WriteLine(ascii);
     }
 	#endregion
 }
