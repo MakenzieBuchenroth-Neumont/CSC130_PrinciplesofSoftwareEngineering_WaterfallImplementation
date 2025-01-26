@@ -10,7 +10,7 @@ Download the latest release and extract all of the files.
 *(Using Visual Studio Code)* - Open the "Blackjack" folder.
 
 **Step 3:**
-*Open the Program.cs file
+Open the Program.cs file.
 
 ## Usage  
 Running the program will begin the game. Enjoy!
