@@ -18,6 +18,7 @@ public class CardManager
 
     public List<Card> playerDeck = new List<Card>();
     public List<Card> dealerDeck = new List<Card>();
+    public List<Card> drawnCards = new List<Card>();
 
     public bool gameOver = false;
     public bool playerWon = false;  // Result to send to BetManager
@@ -86,12 +87,10 @@ public class CardManager
     public int playerScore = 0;
     public int dealerScore = 0;
 
-    private List<Card> drawnCards = new List<Card>();
     private Random rnd = new Random();
-
     private bool isDealerOver17 = false;
 
-    private Card DealCard()
+    public Card DealCard()
     {
         Card card;
         bool valid;
