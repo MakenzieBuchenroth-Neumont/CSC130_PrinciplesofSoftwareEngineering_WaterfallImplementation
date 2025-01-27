@@ -172,7 +172,29 @@ public class CardManager
     private int CalculateScore(List<Card> deck)
     {
         int score = 0;
-        foreach (Card card in deck) score += card.value;
+        List<Card> addAtEnd = new List<Card>();
+        foreach (Card card in deck) 
+        {
+            if (card.value == 1)
+            {
+                addAtEnd.Add(card);
+            }
+            else
+                score += card.value;
+        }
+
+        for (int i = addAtEnd.Count; i > 0; i--)
+        {
+            if (score + 11 + (i - 1) > 21)
+            {
+                score += 1;
+            }
+            else
+            {
+                score += 11;
+            }
+        }
+
         return score;
     }
 
