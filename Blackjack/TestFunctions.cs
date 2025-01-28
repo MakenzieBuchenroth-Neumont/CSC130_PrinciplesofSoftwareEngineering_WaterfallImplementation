@@ -1,4 +1,4 @@
-public static class Testing
+﻿public static class Testing
 {
     public static object[] Test_Art_Display()
     {
@@ -7,7 +7,7 @@ public static class Testing
         string info = "";
 
         // Test(s)
-
+        if (am.AceOfClubs() != " _____ \n|A _  |\n| ( ) |\n|(_'_)|\n|  |  |\n|____Ɐ|") { passed = false; info = "Card art is not formatted correctly."; }
 
         return new object[] { passed, info };
     }
